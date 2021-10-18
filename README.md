@@ -2,7 +2,7 @@
 ## Framework Design Features 
 
 - WebDriver Manager /WebDriver Factory / Browser Factory  >  	Objective: To start a new webdriver with 
-																															Environment Name: Test can run on Local or on Remote Machine or on cloud
+																															Environment Name: Test can run on Local or on Remote Machine or on cloud;
 																															Browser Name: Test can ask for any browser; ImplicitlyWait; DriverPath.
 																															
 - PageObject Manager 	>  Objective: To achieve page's single object created for all the step definiton files. 
