@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47632" started-at="2021-10-18T12:38:56 BST" finished-at="2021-10-18T12:39:44 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="47632" started-at="2021-10-18T12:38:56 BST" finished-at="2021-10-18T12:39:44 BST">
+      <class name="com.impetus.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="setUpClass" is-config="true" duration-ms="674" started-at="2021-10-18T12:38:56 BST" finished-at="2021-10-18T12:38:57 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5438c17a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" duration-ms="6437" started-at="2021-10-18T12:38:57 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T12:39:03 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[eCom Admin Account Login: InValid Credentails]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login was unsuccessful. No customer account found. expected [Dashboard / nopCommerce administration] but found [Login was unsuccessful. No customer account found.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login was unsuccessful. No customer account found. expected [Dashboard / nopCommerce administration] but found [Login was unsuccessful. No customer account found.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.impetus.stepDefinitions.LoginSteps.click_on_login(LoginSteps.java:51)
+at ✽.Click on login(file:///C:/Users/dpayarda/eclipse-workspace/eCommerce/./Features/AdminLogin_InValidCredentials.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" duration-ms="4938" started-at="2021-10-18T12:39:03 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T12:39:08 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials -> Data Driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[eCom Admin Account Login: InValid Credentails]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login was unsuccessful. No customer account found. expected [Dashboard / nopCommerce administration] but found [Login was unsuccessful. No customer account found.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login was unsuccessful. No customer account found. expected [Dashboard / nopCommerce administration] but found [Login was unsuccessful. No customer account found.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.impetus.stepDefinitions.LoginSteps.click_on_login(LoginSteps.java:51)
+at ✽.Click on login(file:///C:/Users/dpayarda/eclipse-workspace/eCommerce/./Features/AdminLogin_InValidCredentials.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" duration-ms="5131" started-at="2021-10-18T12:39:08 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T12:39:14 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials -> Data Driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[eCom Admin Account Login: InValid Credentails]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login was unsuccessful. No customer account found. expected [Dashboard / nopCommerce administration] but found [Login was unsuccessful. No customer account found.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login was unsuccessful. No customer account found. expected [Dashboard / nopCommerce administration] but found [Login was unsuccessful. No customer account found.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.impetus.stepDefinitions.LoginSteps.click_on_login(LoginSteps.java:51)
+at ✽.Click on login(file:///C:/Users/dpayarda/eclipse-workspace/eCommerce/./Features/AdminLogin_InValidCredentials.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" duration-ms="9890" started-at="2021-10-18T12:39:14 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T12:39:23 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[eCom Admin Account Login: Valid Credentails]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" duration-ms="9854" started-at="2021-10-18T12:39:23 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T12:39:33 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials -> Data Driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[eCom Admin Account Login: Valid Credentails]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="runScenario" duration-ms="7315" started-at="2021-10-18T12:39:33 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-18T12:39:41 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials -> Data Driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[eCom Admin Account Login: Valid Credentails]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.impetus.runners.TestRunner@4524411f]" name="tearDownClass" is-config="true" duration-ms="3335" started-at="2021-10-18T12:39:41 BST" finished-at="2021-10-18T12:39:44 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.impetus.runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
