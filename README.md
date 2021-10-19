@@ -11,7 +11,7 @@
 
 - Test Context (Dependency Injection PicoContainer)	> Objective: Sharing Test Context between Cucumber Step Definitions.
 
-- Extent Spark Rerports (HTML) and PDF.
+- Extent Spark Reports (HTML) and PDF.
 
 ## Configuration
 
