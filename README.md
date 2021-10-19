@@ -1,4 +1,4 @@
-## eCommerce Test Automation Ready to use Template: Selenium, Cucumber, TestNg, Maven, Extent Reports and Java8 with Page Object Model
+## Test Automation Ready to use Template: Selenium, Cucumber, TestNg, Maven, Extent Reports and Java8 with Page Object Model
 ## Framework Design Features 
 
 - WebDriver Manager /WebDriver Factory / Browser Factory  >  	Objective: To start a new webdriver with 
