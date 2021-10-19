@@ -3,9 +3,9 @@
 
 - WebDriver Manager /WebDriver Factory / Browser Factory  
 
-	  •	 To start a new web driver with Environment Name: Test can run on Local or on Remote Machine or on cloud.
+	  •  To start a new web driver with Environment Name: Test can run on Local or on Remote Machine or on cloud.
 
-	  •	 Browser Name; Test can ask for any browser; Implicitly Wait; Driver Path
+	  •  Browser Name; Test can ask for any browser; Implicitly Wait; Driver Path
 																															
 - PageObject Manager 	
 
@@ -13,15 +13,14 @@
 
 - FileReader Manager 	
 
-	  • Singleton Pattern: The Singleton's purpose is to control object creation. Because there is only one singleton instance, any instance fields of a Singleton will
-                              occur only once per class, just like static fields.
+	  •  Singleton Pattern: The Singleton's purpose is to control object creation. Because there is only one singleton instance, any instance fields of a Singleton will
+	  		      occur only once per class, just like static fields.
 
 	
 		
 - Test Context 
 
-
-        •      PicoContainer Dependency Injection : Sharing Test Context between Cucumber Step Definitions.
+	  •  PicoContainer Dependency Injection : Sharing Test Context between Cucumber Step Definitions.
         
 
 - Extent Spark Reports (HTML) and PDF.
