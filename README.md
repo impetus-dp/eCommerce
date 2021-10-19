@@ -1,15 +1,28 @@
 ## Test Automation Ready to use Template: Selenium, Cucumber, TestNg, Maven, Extent Reports and Java8 with Page Object Model
 ## Framework Design Features 
 
-- WebDriver Manager /WebDriver Factory / Browser Factory  >  	Objective: To start a new webdriver with 
-																															Environment Name: Test can run on Local or on Remote Machine or on cloud;
-																															Browser Name: Test can ask for any browser; ImplicitlyWait; DriverPath.
+- WebDriver Manager /WebDriver Factory / Browser Factory  
+
+	  •	 To start a new web driver with Environment Name: Test can run on Local or on Remote Machine or on cloud.
+
+	  •	 Browser Name; Test can ask for any browser; Implicitly Wait; Driver Path
 																															
-- PageObject Manager 	>  Objective: To achieve page's single object created for all the step definiton files. 
+- PageObject Manager 	
 
-- FileReader Manager 	>  Objective: Singelton Pattern - The Singleton's purpose is to control object creation, limiting the number of objects to only one. Since there is only one Singleton instance, any instance fields of a Singleton will occur only once per class, just like static fields. 
+	  •  To achieve page's single object creation for all the step definition files.
 
-- Test Context (Dependency Injection PicoContainer)	> Objective: Sharing Test Context between Cucumber Step Definitions.
+- FileReader Manager 	
+
+	  • Singleton Pattern: The Singleton's purpose is to control object creation. Because there is only one singleton instance, any instance fields of a Singleton will
+                              occur only once per class, just like static fields.
+
+	
+		
+- Test Context 
+
+
+        •      PicoContainer Dependency Injection : Sharing Test Context between Cucumber Step Definitions.
+        
 
 - Extent Spark Reports (HTML) and PDF.
 
